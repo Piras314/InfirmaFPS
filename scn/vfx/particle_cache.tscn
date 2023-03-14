@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh3wr181ab35q"]
+
+[ext_resource type="Script" path="res://src/cache_canvas.gd" id="1_ekdl0"]
+
+[node name="ParticleCache" type="Node3D"]
+
+[node name="canvas" type="CanvasLayer" parent="."]
+script = ExtResource("1_ekdl0")
